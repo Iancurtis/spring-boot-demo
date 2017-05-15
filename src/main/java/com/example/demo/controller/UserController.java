@@ -18,4 +18,5 @@ class UserController {
         logger.debug("user long: " + user);
         return "hello users";
     }
+
 }
