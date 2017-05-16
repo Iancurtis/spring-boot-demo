@@ -18,10 +18,7 @@ class Home {
 
     @RequestMapping("/")
     String home() {
-        logger.debug("this is a message from spring web");
-        String userName = userService.getUser(100);
-        logger.debug("user name is " + userName);
-        userService.timeFormatShow();
+        userService.transfer();
         return "Hello world!!";
     }
 }

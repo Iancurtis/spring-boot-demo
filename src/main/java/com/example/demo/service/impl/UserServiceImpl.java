@@ -29,4 +29,10 @@ public class UserServiceImpl implements UserService {
         logger.debug("date: " + user.getDate());
         logger.debug("time: " + user.getTime());
     }
+    public void transfer() {
+        logger.debug("just a tansfer...");
+        if (true) {
+            throw new IllegalArgumentException("just an Exception for fun");
+        }
+    }
 }
