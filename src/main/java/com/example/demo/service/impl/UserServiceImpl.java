@@ -31,8 +31,8 @@ public class UserServiceImpl implements UserService {
     }
     public void transfer() {
         logger.debug("just a tansfer...");
-        if (true) {
-            throw new IllegalArgumentException("just an Exception for fun");
-        }
+        // if (true) {
+        //     throw new IllegalArgumentException("just an Exception for fun");
+        // }
     }
 }
